@@ -300,3 +300,58 @@ footer ul li a {
 .section-f {
   background-image: url(img/section-f.webp);
 }
+
+/* Inner Pages */
+.section-bg-falcon {
+  background-image: url(img/falcon-9.webp);
+}
+
+.section-bg-dragon {
+  background-image: url(img/dragon.webp);
+}
+
+.section-bg-heavy {
+  background-image: url(img/falcon-heavy.webp);
+}
+
+.section-animate {
+  animation: FadeIn 2s ease-in;
+}
+
+.section-inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-inner-text h1 {
+  font-size: 8rem;
+  margin-bottom: 1.5rem;
+  animation: FadeInUp 0.5s ease-in-out;
+}
+.section-inner-text p {
+  font-size: 1.6rem;
+
+  animation: FadeInUp 0.5s ease-in-out 0.1s;
+}
+
+.stats {
+  max-width: 96rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stat-box {
+  margin-top: 3rem;
+}
+
+.stat-box span {
+  font-size: 10rem;
+}
